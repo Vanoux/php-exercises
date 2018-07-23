@@ -10,8 +10,9 @@ Tant que la première variable n'est pas supérieur à 20 :
 */
 
 $num1 = 0;
-$num2 = 50;
-while ($num1 > 20) {
+$num2 = 5;
+while ($num1 < 21) {
     echo $num1 * $num2 ."\n";
+    $num1++;
 }
 ?>
