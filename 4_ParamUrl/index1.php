@@ -26,8 +26,3 @@ if (isset($_GET["nom"], $_GET["prenom"])){
 </body>
 </html> 
 
-<!-- <form action="index1.php" method="GET">
-    <p>Nom : <input type="text" name="nom"/></p>
-    <p>Prénom : <input type="text" name="prenom"></p>
-    <p><input type="submit" value="OK"></p>
-</form> -->
