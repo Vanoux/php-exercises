@@ -1,6 +1,6 @@
 <!--Faire une page index.php. 
 Tester sur cette page que tous les paramètres de cette URL existent et les afficher:
-index.php?nom=Nemare&prenom=Jean -->
+index1.php?nom=Nemare&prenom=Jean -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,12 @@ index.php?nom=Nemare&prenom=Jean -->
 <h1>Exo 1 ParamUrl</h1>
 
 <?php
-echo "Bonjour " . ($_GET["nom"]) . " " . ($_GET["prenom"]) . "!";
+//isset() = Détermine si une variable est définie et est différente de NULL
+if (isset($_GET["nom"], $_GET["prenom"])){
+    echo "Bonjour " . $_GET["nom"] . " " . $_GET["prenom"] . "!";
+} else {
+    echo "Nom et prénom non définit";
+}
 ?>
 
 </body>
