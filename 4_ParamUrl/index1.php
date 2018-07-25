@@ -19,7 +19,7 @@ index1.php?nom=Nemare&prenom=Jean -->
 if (isset($_GET["nom"], $_GET["prenom"])){
     echo "Bonjour " . $_GET["nom"] . " " . $_GET["prenom"] . "!";
 } else {
-    echo "Nom et Prénom non définit";
+    echo "Nom et Prénom non définit !";
 }
 ?>
 
