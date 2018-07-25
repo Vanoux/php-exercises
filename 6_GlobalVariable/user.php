@@ -1,9 +1,19 @@
 <?php
-
 session_start();
-
-echo $_SESSION["nom"] . "\n";
-echo $_SESSION["prenom"] . "\n";
-echo $_SESSION["age"] . "\n";
-
 ?>
+
+<?php
+//Exo 2
+echo "Infos Session : " . $_SESSION["nom"] . " " . $_SESSION["prenom"] . " " . $_SESSION["age"] . "\n";
+?>
+<br><br>
+<hr><br>
+
+
+<?php
+//Exo 4
+echo "Infos Cookies : " . $_COOKIE["login"] . " " . $_COOKIE["mdp"] . "\n";
+?>
+<br><hr>
+<br><br>
+
