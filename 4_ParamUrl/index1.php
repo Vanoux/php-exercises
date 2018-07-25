@@ -15,7 +15,7 @@ index1.php?nom=Nemare&prenom=Jean -->
 <h1>Exo 1 ParamUrl</h1>
 
 <?php
-//isset() = Détermine si une variable est définie et est différente de NULL
+//isset() = Détermine si une variable ou élément de tableau est existant et est différente de NULL
 if (isset($_GET["nom"], $_GET["prenom"])){
     echo "Bonjour " . $_GET["nom"] . " " . $_GET["prenom"] . "!";
 } else {

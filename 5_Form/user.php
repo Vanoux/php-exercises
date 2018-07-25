@@ -7,3 +7,5 @@ echo "Méthode GET = Nom : " . $_GET["nom"] . " & Prenom : " . $_GET["prenom"] .
 <?php
 echo "Méthode POST = Nom : " . $_POST["nom"] . " & Prenom : " . $_POST["prenom"] . "\n";
 ?>
+
+<h2>Exercice 5</h2>
