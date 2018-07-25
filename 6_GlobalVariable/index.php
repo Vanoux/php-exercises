@@ -12,7 +12,7 @@ session_start();
     <title>GlobalVariable php</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body style="">
+<body style="border:2px solid yellow">
 
   <h1 style="color:brown; text-align:center;">Exercices Global Variable</h1>
 
